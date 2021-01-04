@@ -3,6 +3,7 @@ General
     2. %T (type)
     3. %% (literal %)
     4. %q (string)
+    5. %g float32
 
 Boolean
     1. %t (true or false)
