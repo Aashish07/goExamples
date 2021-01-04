@@ -2,6 +2,7 @@ General
     1. %v (value in default format)
     2. %T (type)
     3. %% (literal %)
+    4. %q (string)
 
 Boolean
     1. %t (true or false)
