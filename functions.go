@@ -8,7 +8,7 @@ import "fmt"
 // }
 
 //It can also be written as
-func test(x, y int) (z1, z2 int) {
+func test1(x, y int) (z1, z2 int) {
 	defer fmt.Println("hello") //It means that it will execute the statement after the return keyword inside that function is reached
 	z1 = x + y
 	z2 = x - y
@@ -16,7 +16,7 @@ func test(x, y int) (z1, z2 int) {
 }
 func main() {
 	// -------------- one value -> func -> one value out
-	ans1, ans2 := test(5, 9)
+	ans1, ans2 := test1(5, 9)
 	fmt.Println(ans1)
 	fmt.Println(ans2)
 
